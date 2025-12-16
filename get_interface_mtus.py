@@ -3,7 +3,8 @@ from hostfile import host, username, pword
 from urllib3.exceptions import InsecureRequestWarning  # this is used below to disable an insecure HTTPS warning
 
 """ 
-This module gets an authentication token from the NX-OS device. -MPG
+work in progress -- this module is intended to get the MTUs of all active interfaces 
+on a target NX-OS device. 
 """
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
